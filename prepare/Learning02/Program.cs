@@ -15,9 +15,12 @@ class Program
         job2._company = "Apple";
         job2._startYear = 2000;
         job2._endYear = 2020;
+
+        var job3 = new Job("Software enginerre", "moto", 1999, 2000);
         
         job1.DisplayJobDetails();
         job2.DisplayJobDetails();
+        job3.DisplayJobDetails();
 
         Resume resume1 = new Resume();
         resume1._name = "Tyler Burdett";

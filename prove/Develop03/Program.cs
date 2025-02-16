@@ -10,13 +10,13 @@ class Program
         var scripture = scriptureManager.GetRandomScripture();
 
         Console.Clear();
-        scripture.Display();
         Console.WriteLine("Press Enter to hide words or type 'quit' to exit:");
+        scripture.Display();
 
         
         while (!done)
         {
-            string input = Console.ReadLine(); // Read user input directly
+            string input = Console.ReadLine(); 
 
             if (input.Equals("quit", StringComparison.OrdinalIgnoreCase)) // If "quit" is typed
             {

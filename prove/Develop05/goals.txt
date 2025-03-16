@@ -1,0 +1,2 @@
+50
+SimpleGoal`Pass this class with an A`get at least a 93% in CSE 210`50`True
